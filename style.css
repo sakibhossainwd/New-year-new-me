@@ -113,6 +113,7 @@ background: linear-gradient(90deg, rgba(241,169,10,1) 0%, rgba(253,255,255,0.588
 }
 .img-btn{
     border: none;
+    border-radius: 5px;
     background: #ffff;
     padding: 20px 30px;
     font-size: 20px;
