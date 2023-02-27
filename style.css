@@ -1,0 +1,163 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    margin: auto;
+}
+
+/* cover part */
+.cover{
+    background: url(./images/banner/banner1.png);
+    height: 900px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cover-content{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.left{
+    width: 60%;
+}
+.right{
+    width: 40%;
+    padding-top: 25%;
+    text-align: right;
+}
+.right h1{
+    font-size: 65px;
+}
+.right p{
+    padding-left: 30%;
+}
+.cover-btn{
+    background: #ee7100;
+    border: none;
+    padding: 15px 20px;
+    color: white;
+    font-weight: 700;
+    margin-top: 2%;
+    border-radius: 5px;
+}
+
+/* Introduction part */
+.failure-container{
+    width: 80%;
+    margin: auto;
+    margin-top: 7%;
+    display: flex;
+    align-items: center;
+    
+}
+.failure-content{
+    width: 40%;
+    padding-left: 10%;
+}
+.failure-content h1{
+    font-size: 50px;
+}
+.failure-p1{
+    margin-top: 3%;
+}
+.failure-content i{
+    color: greenyellow;
+    padding-top: 10px;
+}
+.list-p{
+    margin-top: 2%;
+}
+
+/* Plane part start frome here */
+.plane-part{
+    width: 80%;
+    margin: auto;
+    margin-top: 7%;
+}
+.plane-heading{
+    text-align: center;
+    margin-bottom: 3%;
+    font-size: 40px;
+}
+.plane-icon{
+    display: flex;
+    justify-content: center;
+    gap: 7%;
+}
+.icon-h1{
+    margin: 10px 10px;
+}
+.icon{
+    text-align: center;
+}
+
+/* img box part */
+.gradient-box{
+    width: 60%;
+    height: 300px;
+    margin: auto;
+    margin-top: 7%;
+    padding: 5% 5%;
+    background: rgb(241,169,10);
+background: linear-gradient(90deg, rgba(241,169,10,1) 0%, rgba(253,255,255,0.5886729691876751) 70%), url(./images/watch.png);
+    background-repeat: no-repeat;
+    margin-bottom: 10%;
+}
+.content-left h1{
+    width: 40%;
+    font-size: 40px;
+}
+.img-btn{
+    border: none;
+    background: #ffff;
+    padding: 20px 30px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 2%;
+}
+
+/* footer part */
+.footer-part{
+    background: black;
+    padding: 10% 10%;
+    color: azure;
+    display: flex;
+    gap: 5%;
+}
+.social-part{
+    width: 80%;
+    padding-right: 55%;
+}
+.social-part h1{
+    font-size: 45px;
+}
+.footer-p1{
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+.social-icon{
+    display: flex;
+    gap: 5%;
+    padding-top: 5%;
+}
+
+.email-part h1{
+    font-size: 35px;
+    margin-bottom: 10%;
+}
+input[type=email]{
+    padding: 5%;
+    background: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: rgb(26, 121, 204);
+}
+input[type=submit]{
+    padding: 5% 10%;
+    margin-top: 5%;
+    color: #ee7100;
+}
